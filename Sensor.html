@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+    <link rel="stylesheet" href="src\Css\style.css">
+
+    <title>Sensor(CO)</title>
+</head>
+<body>
+    <header>
+        <nav class="opcoes_menu">
+            <ul class="opcoes_menu">
+                <li    class="menu"><a href="/index.html">Início</a></li>
+                <li    class="menu"><a href="/CO.html">Monóxido de Carbono</a></li>
+                <li    class="menu"><a href="/Sensor.html">Sensor</a></li>
+                <li    class="menu"><a href="/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="sessao_CO">
+        <h1 class="conteudo_titulo">Desenvolvimento da Solução</h1>
+            <p class="conteudo_texto_geral">Sensor de (CO) monóxido de Carbono será um mecanismo responsável por alertar o motorista se está a níveis altos da presença de (CO) no interior do carro, esta é uma solução
+                 simples para evitar acidentes por intoxicação causadas por essa substância.</p>
+
+            <p class="conteudo_texto_geral">O teste será implementado por um protótipo do sensor e serão utilizadas as placas Arduino, placa de controle de carga, o sensor de CO,
+                  uma bateria de lítio e outras peças eletrônicas controladas através da programação Arduino em C. </p>
+          <div class="container_exibicao_sensor">       
+                  <video  controls>
+                    <source class="video_sensor" src="./src/Img/Sensor de Monóxido de Carbono.mp4" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                  </video>
+                </div>       
+           <p class="conteudo_titulo">Tabela de materias Necessários para o uso do sensor</p>       
+         <img class="imagem_tabela_Materiais" src="./src/Img/TabelaDeMateriasSensor.png" alt="Lista de materias Necessários para contrução do arduino" />
+                
+
+         <div>
+        <strong class="conteudo_titulo_conama_CO">Funcionamento do Sensor</strong>
+        <p class="conteudo_texto_geral">Esse processo é baseado na adsorção de moléculas de CO na superfície do semicondutor
+            e na alteração da condutividade elétrica do material. </p>
+
+            <table class="tabela_estilo_geral">
+                <thead>
+                        <tr>
+                            <th>Material</th>
+                            <th></th>
+
+                        </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Aquecedor Interno: </td>
+                        <td>O sensor tem um pequeno aquecedor embutido que aquece o material
+                            sensor a diferentes temperaturas para otimizar a adsorção de CO e a queima de impurezas. </td>
+                    </tr>
+
+                    <tr>
+                        <td>Pinos de Saída: </td>
+                        <td>O sensor possui pinos de saída que são conectados a um circuito de
+                            leitura de tensão para medir a mudança na resistência do sensor.</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+
+        </div>
+
+        <div>
+            <strong class="conteudo_titulo_conama_CO">Leitura da Resistência </strong>
+            <p class="conteudo_texto_geral">A mudança na resistência do elemento sensor é convertida em um sinal elétrico (tensão).
+                 Esta mudança de tensão é proporcional à concentração de CO presente no ambiente.
+            </p>
+
+            <strong class="conteudo_titulo_conama_CO">Curva de Resposta do Sensor</strong>
+
+            <p class="conteudo_texto_geral">A saída do sensor MQ-7 é geralmente não linear e a resposta do sensor em relação à concentração de CO é apresentada em uma curva de log-log.
+
+                Essa curva de calibração relaciona a resistência relativa (Razão entre a resistência do sensor em ar limpo e na presença de gás)
+                 à concentração de CO em partes por milhão (PPM). </p>
+                </div>            
+                    
+                
+                
+                    <h2 class="conteudo_titulo">CÓDIGO ARDUINO</h2>
+                    <img class="imagem_tabela_Materiais" src="./src/Img/codigoArduinoSensor.png" alt="Foto de código de Arduino">
+                    
+            
+                    
+                        <p class="copy_pagina_programacao"><a href="/index.html">Copiar</a></p>
+
+                
+               
+
+        
+
+
+
+    </main>
+
+  </body>
+
+  </html>

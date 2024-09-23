@@ -1,0 +1,427 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+--cor-fundo:#5D5E61;
+--cor-menu: #36413E;
+--cor-texto-geral:#D7D6D6;
+--fonte--geral:"Playfair Display", serif;
+
+
+/* configurações de menu de opções e body*/
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../Img/Home.png');
+    background-attachment: fixed;
+
+    
+
+}
+
+footer
+{
+    background-color: black;
+    height: 100px;
+}
+
+
+
+header{
+    background-color: var(--cor-menu);
+    padding: 0.62rem 1.5rem;
+
+}
+
+.opcoes_menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    z-index: 1000;
+
+
+}
+
+a:hover {
+   color: var(--cor-fundo);
+   text-decoration: none;
+}
+
+
+a {
+    display: flex;
+    color: var(--cor-texto-geral); 
+    text-decoration: none;
+    font-family:var(--fonte--geral);
+
+}
+.menu {
+
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+
+/* estilo conteúdo  textos geral   */
+
+.conteudo_titulo {
+    font-family:var(--fonte--geral);
+    font-size: 1.5rem;
+    padding: 36px;
+    color:var(--cor-texto-geral);
+}
+
+.conteudo_texto_geral{
+    font-family:var(--fonte--geral);
+    font-size: 16px;
+    padding: 36px;
+    color: var(--cor-texto-geral);
+}
+/* FORMATAÇÃO DO CONTEINER IMAGEM TEXTO*/
+.container_conteudo_texto_horizontal
+{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+
+/*conteudo monóxido de carbono*/
+.sessao_CO{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 950px;
+    min-height: 100vh;
+
+
+}
+
+.conteudo_introducao_CO{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family:var(--fonte--geral);
+    font-size: 1rem;
+    padding: 2.25rem;
+    color: var(--cor-texto-geral);
+    margin-bottom: 200px;
+    gap:0.62rem;
+}
+
+/*FORMATAÇÃO TEXTO parâmetros CONAMA*/
+.conteudo_titulo_conama_CO{
+    display: flex;
+    justify-content: center;
+    font-size:1.37rem;
+    color:var(--cor-texto-geral);
+    margin-top: 15px;
+}
+
+/*Estilo página inicial*/
+
+.sessao_inicio{
+    display:grid;
+    justify-content:left;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    max-width: 56.25rem;
+    min-height: 100vh;
+    padding: 4rem;
+    
+
+}
+
+.conteudo_titulo_pagina_inicio
+{
+    font-family:var(--fonte--geral);
+    font-size: 2rem;
+    padding: 2.25rem;
+    color:var(--cor-texto-geral);
+   
+}
+
+.conteudo_texto_inicio{
+    display:flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    font-family:var(--fonte--geral);
+    font-size: 1rem;
+    color: var(--cor-texto-geral);
+    margin-bottom: 150px;
+}
+
+
+/* Página de Contato */
+
+.sessao_contato
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.botoes_pagina_contato
+{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 20px;
+}
+.botao_estilo
+{
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    background-color: var(--cor-menu);
+    color: var(--cor-fundo);
+    font-family: var(--fonte--geral);
+    font-size: 1rem;
+    border: none;
+    padding: 1.87rem 3.75rem;
+    border-radius: 0.62rem;
+    cursor:pointer;
+    box-shadow: 0 4px 6px var(--cor-fundo);
+    transition: box-shadow 0.3s ease;
+
+}
+
+.botao_estilo:hover{
+    box-shadow: 0 6px 8px var(--cor-fundo);
+}
+
+.botao_estilo .icone_botoes
+{
+    width:24px;
+    height: 24px;
+    margin-right: 10px;
+    object-fit: cover;
+
+}
+
+/* estilo página sensor */
+.container_exibicao_sensor
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   max-width: 600px;
+   gap: 32px;
+   margin-bottom: 32px;
+   
+}
+.copy_pagina_programacao
+{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-menu);
+    font-family: var(--fonte--geral);
+    font-size: 1rem;
+    width: 5rem;
+    padding: 0.6rem 0.31rem;
+    border-radius: 15%;
+    box-shadow: 0 4px 6px var(--cor-fundo);
+}
+
+
+
+
+/* estilo tabelas */
+.tabela_estilo_geral{
+    width: 100%;
+    margin:25 0;
+    text-align: left;
+
+}
+
+.tabela_estilo_geral th,
+.tabela_estilo_geral td {
+
+    padding: 0.75rem 0.93rem;
+    border: 1px solid var(--cor-menu);
+}
+
+.tabela_estilo_geral thead tr{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto-geral);
+    font-family: var(--fonte--geral);
+}
+.tabela_estilo_geral tbody tr
+{
+    background-color: var(--cor-menu);
+    font-family: var(--fonte--geral);
+    color: var(--cor-texto-geral);
+}
+.tabela_estilo_geral:hover
+{
+    background-color: var(--cor-fundo);
+}
+
+
+
+
+/* Imagens videos*/
+.video_sensor
+{
+    width: 37.5rem ; 
+    height: 21.06rem; 
+    max-width: 31.2rem; 
+}
+
+.imagem_arduino
+{
+    width: 30%;
+}
+
+.imagem_logo_conama
+{
+    width: 12%;
+
+}
+.imagem_titulo_CO{
+
+    width: 15%;
+}
+.imagem_logo_UCL{
+    width: 18%;
+}
+
+.container_FormulaQuimicaMat
+{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: column;
+    align-items: center;
+    gap: 15%;
+    
+}
+.imagem_tabela_Materiais
+{
+    width: 45rem;
+    height: 25rem;
+}
+.imagem_Formula_calculo
+{
+    width: 15rem;
+    height: 5rem;
+}
+
+
+/* telas pequenas (mobile)  */
+
+@media (max-width:600px)  {
+    .html,body {
+        background-image: url('../Img/HOMEmin.png');
+        background-size: contain;
+        background-position: center top;
+    
+
+    }
+    
+    .conteudo_titulo_pagina_inicio{
+        font-size: 1rem; 
+    }
+    .conteudo_texto_inicio
+    {
+        font-size: 0.8rem;
+    }
+    .conteudo_titulo
+    {
+        font-size: 1rem;
+    }
+    .conteudo_texto_geral
+    {
+        font-size: 0.8rem;
+    }
+    .conteudo_introducao_CO
+    {
+        font-size: 0.8rem
+    }
+    .conteudo_titulo_conama_CO
+    {
+        font-size: 0.95rem;
+    }
+    .tabela_estilo_geral
+    {
+        max-width: max-content;
+    }
+    .imagem_FormulaQuimica{
+        max-width: max-content;
+    }
+    .imagem_tabela_Materiais
+    {
+        width: 25rem;
+        height: 13rem;
+        max-width: max-content;
+    }
+
+    .botao_estilo
+    {
+        max-width: max-content;
+    }
+    .video_sensor
+    {
+        max-width:min-content;
+        width: 12%;
+        height: 25%;
+    }
+    
+    
+}
+
+@media (max-width:480px)
+{
+    .html,body {
+        background-color: var(--cor-fundo);
+    
+
+    }
+    .imagem_FormulaQuimica{
+        max-width: max-content;
+    }
+    .imagem_tabela_Materiais
+    {
+        width: 18rem;
+        height: 8rem;
+        max-width: max-content;
+    }
+
+    .botao_estilo
+    {
+        max-width: max-content;
+    }
+    .video_sensor
+    {
+        max-width:min-content;
+        width: 9%;
+        height: 19%;
+    }
+
+}
+
+
+
+
+
+
+

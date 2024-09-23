@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+    <link rel="stylesheet" href="src\Css\style.css">
+
+    <title>Sensor(CO)</title>
+</head>
+<body>
+    <header>
+        <nav class="opcoes_menu">
+            <ul class="opcoes_menu">
+                <li   class="menu"><a href="/index.html">Início</a></li>
+                <li   class="menu"><a href="/CO.html">Monóxido de Carbono</a></li>
+                <li   class="menu"><a href="/Sensor.html">Sensor</a></li>
+                <li   class="menu"><a href="/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+ 
+ <main class="sessao_CO">
+ 
+    <h1 class="conteudo_titulo"> Partícula de Monóxido de Carbono</h1>
+        <img  class="imagem_titulo_CO"  src="/src/Img/monóxidoDeCarbonoParticula.png" alt="representação por imagem da estrutura do monóxido de carbono"/>
+            
+        <div class="conteudo_introducao_CO">
+                <p>O monóxido de carbono (CO) é um dos principais poluentes do ar. Trata-se de um gás inodoro, 
+                    incolor e insípido, que pode se originar tanto de processos naturais quanto de atividades humanas. 
+                    A maior parte das emissões de CO provém de ações humanas, sendo os principais exemplos a geração de energia em usinas termelétricas,
+                     atividades das indústrias químicas, processos de refino de petróleo e, principalmente, a emissão de veículos automotores.</p>
+        
+    
+            <div>
+                <strong>Por que é nocivo</strong>
+                <p>O monóxido de carbono é um gás derivado da queima incompleta de combustíveis fósseis 
+                    (carvão vegetal e mineral, álcool, gasolina, querosene e óleo diesel). </p>
+
+                <p>O maior perigo do monóxido de carbono decorre de sua capacidade, quando inalado, 
+                    de complexar fortemente com a hemoglobina do sangue, prejudicando sua capacidade de transportar oxigênio para as células. </p>
+                    
+                <p>A exposição a concentrações muito altas de CO resulta em dores de cabeça, fadiga, perda de consciência e, eventualmente,
+                     morte (se tal exposição é mantida por longos períodos). </p>
+            </div> 
+        
+        
+        </div>
+             <img class="imagem_logo_conama" src="/src/Img/logoConama.png" alt="Logo conama"/>
+        
+   
+        <div class="conteudo_texto_geral">
+            
+            <p>
+                 <strong class="conteudo_titulo_conama_CO"> Parametros do AR segundo a CONAMA </strong>
+                     O monóxido de Carbôno é um dos mais perigosos poluentes do ar capaz
+                     de prejudicar o ambiente e colocar em risco a Saúde humana. Segundo O CONAMA  (Conselho Nacional do Meio Ambiente) Algumas das principais diretrizes sobre a emissão de CO São: 
+           </p>
+    <p>
+        <strong>Padrões de Qualidade do Ar: </strong>
+
+        O CONAMA estabelece limites para a concentração de monóxido de carbono no ar, visando proteger a saúde pública. O Padrão Primário de Qualidade
+        do Ar para o CO, segundo a Resolução CONAMA nº 491/2018, define que a concentração de CO não deve ultrapassar: 
+    </p>
+
+            <ul>
+                
+                <li>9 ppm (partes por milhão) em um período de 8 horas.</li>
+
+                <li> 35 ppm em um período de 1 hora.</li>
+
+            </ul>
+             
+            <p><strong>Emissão Veicular:</strong> 
+
+                Existem regulamentos específicos do CONAMA para controlar a emissão de CO por veículos automotores.
+                 A Resolução CONAMA nº 418/2009, por exemplo, estabelece que veículos em circulação devem atender a 
+                 limites máximos de emissões de CO, definidos de acordo com o tipo e ano de fabricação do veículo. 
+                 Esses limites são verificados durante a Inspeção Veicular Ambiental. 
+              </p>
+        </div>
+
+        
+            <h2 class="conteudo_titulo_conama_CO">O Que Será Desenvolvido para Resolver o Problema</h2>
+
+        <div class="container_conteudo_texto_horizontal">
+            <div class="conteudo_texto_geral">
+
+            <p>Sensor de (CO) monóxido de Carbono será um mecanismo responsável por alertar o motorista se está 
+                  a níveis altos da presença de (CO) no interior do Carro, esta é uma solução simples para evitar acidentes
+                  por intoxicação causadas por essa Substância.
+            </p>
+
+            <p>
+            O teste será implementado por um protótipo do sensor e serão utilizadas as placas Arduino, placa de controle de carga , o sensor
+             de CO, uma bateria de lítio e outras peças eletrônicas  controladas através da programação Arduino em C. 
+           </p> 
+           </div>
+            
+
+
+            <img class="imagem_arduino" src="/src/Img/01_arduinounor3.gif" alt="gif do arduino"/>
+       </div>
+       
+            <div>
+                <h3 class="conteudo_titulo">Comportamento do detector do Sensor</h3>
+
+                <p class="conteudo_texto_geral">O MQ-7 utiliza um material semicondutor sensível a gases, como o dióxido de estanho (SnO₂), 
+                    que reage quimicamente com o monóxido de carbono e outros gases redutores, 
+                    causando uma mudança em suas propriedades elétricas. </p>
+                <p class="conteudo_texto_geral">
+                    O sensor utiliza o composto de dióxido de estanho (SnO₂), um semicondutor tipo n, que altera sua resistência elétrica em resposta a gases como o monóxido de carbono (CO). 
+                    A detecção ocorre através de uma série de reações químicas de oxidação e redução na superfície do sensor, que resultam na mudança de condutividade elétrica. 
+                </p>
+                
+                
+<!-- tabela 1 -->
+                <table class="tabela_estilo_geral">
+                    <thead>
+                        <tr>
+                            <th>Partículas químicas</th>
+                            <th>Reações</th>
+                        </tr>
+                    </thead>
+                <tbody>
+                    <tr>
+                        <td>Dióxido de Estanho (SnO₂)</td>
+                        <td>Material de natureza semicondutor que é sensível a gases redutores 
+                            (como CO) e oxidantes ( O₂).</td>
+                    </tr>
+
+                    <tr>
+                        <td>Oxigênio (O2, Adsorvido)</td>
+                        <td>O oxigênio é adsorvido na superfície do Dióxido de Estanho e se liga, 
+                            formando espécies de oxigênio carregadas negativamente (O²⁻, O⁻, O₂⁻). </td>
+                    </tr>
+
+                    <tr>
+                        <td>Monóxido de Carbono (CO)</td>
+                        <td>Um gás incolor e inodoro que, quando presente, 
+                            reage com o oxigênio adsorvido na superfície do SnO₂</td>
+                    </tr>
+                </tbody>
+
+                </table>
+
+                <div class="container_FormulaQuimicaMat" >
+                <p class="conteudo_texto_geral">Quando o sensor está em um ambiente normal (sem CO), o oxigênio do ar é adsorvido na superfície do SnO₂
+                     e captura elétrons do material, formando íons de oxigênio adsorvidos: </p>
+                    
+                     <img class="container_FormulaQuimicaMat" src="./src/Img/FórmulaQuímica-1 .png" alt="Formula quimica do material SO2 , que adsorve o oxigênio"/>
+                <p class="conteudo_texto_geral">Quando o monóxido de carbono (CO) está presente no ambiente e entra em contato com o material sensor aquecido,
+                     ele reage com o oxigênio adsorvido na superfície do SnO₂. </p>
+
+                     
+                     <img  src="./src/Img/FórmulaQuímica-2 .png" alt="Formula quimica do material aquecido"/>
+                     </div>
+                                    <ul class="conteudo_texto_geral">
+                                        <li>
+                                                O CO é um gás redutor e, ao reagir com o oxigênio adsorvido,
+                                                ele libera elétrons de volta para a rede cristalina do SnO₂. 
+                                            </li>
+                                            <li>
+                                                    Isso reduz a barreira potencial e, consequentemente,
+                                                    diminui a resistência elétrica do sensor, o que será medido eletronicamente.
+                                                    A mudança na resistência elétrica é diretamente proporcional à 
+                                                    concentração de monóxido de carbono presente no ambiente.  
+                                        </li>
+                                    </ul>
+                         
+<!-- tabela 2 -->    <table class="tabela_estilo_geral">
+                        <thead>
+                            <th> Temperatura </th>
+                            <th> Comportamento </th>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>(~200°C):</td>
+                                <td>O sensor é aquece a essa temperatura e queima os contaminantes para renovar a 
+                                    superfície do sensor. 
+
+                                    O oxigênio é adsorvido novamente na superfície do SnO₂. </td>
+                            </tr>
+
+                            <tr>
+                                <td>(~50°C):</td>
+                                <td>O sensor é resfriado para uma temperatura em que a adsorção de CO é mais eficiente. 
+
+                                    Nesta fase que o CO reage com o oxigênio adsorvido para liberar elétrons e alterar a
+                                     resistência do sensor. </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>  
+
+                <div class="container_FormulaQuimicaMat">
+                  <strong class="conteudo_titulo_conama_CO">Os resultados coletados pelo sensor de monóxido carbono envolvem uma série de cálculos
+                         para obter com maior precisão a quantidade de ppm no Ar.</strong>
+                         <p class="conteudo_texto_geral">A leitura da concentração de CO pelo sensor é uma conversão de
+                             resultados dependendo da tensão elétrica </p>
+                                <img class="imagem_Formula_calculo" src="./src/Img/formula calculo-1.png" alt="Formula de tensão elétrica do sensor"/>
+
+                        <p class="conteudo_texto_geral">Onde, V é a tensão de saída, m é a sensibilidade do sensor, C representa 
+                            a partícula e interpretação e deslocamento. </p>
+                                <img src="./src/Img/formula calculo-2.png" alt="calculo da sensibilidade do sensor"/>
+
+                        <strong class="conteudo_texto_geral">Conversão da Tensão em valor de concentração </strong>
+                                <img src="./src/Img/formula calculo-3.png" alt="conversão de valor de tensão em concentração do CO">
+
+                        <strong class="conteudo_texto_geral">Medição de ppm (partes por milhão) no ar </strong>
+                        <p class="conteudo_texto_geral">Onde α representa o Coeficiente de correção para a temperatura, β Coeficiente de correção para a umidade, ΔT Variação da temperatura e ΔH variação da humidade. 
+
+                            O sensor pode ter um pequeno ruído de sinal, que precisa ser filtrado.
+                             Estatísticas como média ou desvio padrão podem ser utilizadas para suavizar as leituras </p>
+                                <img src="./src/Img/formula calculo-4.png" alt="desvio padrão do sensor"/> 
+                        <p class="conteudo_texto_geral">Onde V são as leituras de tensão e N número de amostras.</p>
+                </div>
+
+            </div>
+
+        
+
+
+</main>
+
+
+</body>
+
+
+</html>
